@@ -1,0 +1,6 @@
+interface:
+  display_name: "Figure-draft"
+  short_description: "科研配图统一入口，按阶段选择内容讨论、生图、数据绘图、Affinity 与验收模块"
+  default_prompt: "请用 $figure-draft 判断我当前的配图阶段和图源，只加载所需模块，继续完成本次绘图、修改或验收。"
+policy:
+  allow_implicit_invocation: true
